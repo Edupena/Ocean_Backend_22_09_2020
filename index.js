@@ -52,7 +52,7 @@ app.post('/mensagens', (req, res) =>{
     mensagens.push(mensagem);    
 
     // Exibido o ID da mensagem, que no caso é o índice que ela foi adicionada
-    res.send(`Mensagem com o texto: ${mensagem.texto} foi criada com sucesso. ID: ${id}.`);
+    res.send(`Mensagem com o texto: ${mensagem.texto}, foi criada com sucesso. ID: ${id}.`);
 });
 
 //Read Single
